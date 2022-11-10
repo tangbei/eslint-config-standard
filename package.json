@@ -1,0 +1,26 @@
+{
+  "name": "@tangbei/eslint-config-standard",
+  "version": "1.0.1-alpha.6",
+  "description": "",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "test": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tangbei/eslint-config-standard-base": "^1.0.1-alpha.1",
+    "@typescript-eslint/parser": "^5.42.0",
+    "object.assign": "^4.1.4",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.10"
+  }
+}
